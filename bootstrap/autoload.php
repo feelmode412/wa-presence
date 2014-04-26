@@ -14,7 +14,8 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-require __DIR__.'/../vendor/autoload.php';
+$vendorLocation = @file_get_contents(__DIR__.'/../'.gethostname().'.vendor_location.txt') ?: __DIR__.'/../vendor';
+require $vendorLocation.'/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
