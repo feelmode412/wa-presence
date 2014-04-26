@@ -114,6 +114,10 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		// Additional
+		'Webarq\Site\SiteServiceProvider',
+		'Webarq\Admin\AdminServiceProvider',
+
 	),
 
 	/*
@@ -179,6 +183,12 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
+		// Additional
+		'Site'            => 'Webarq\Site\SiteFacade',
+		'Admin'            => 'Webarq\Admin\AdminFacade',
+
 	),
+
+	'name' => 'Web App X',
 
 );
