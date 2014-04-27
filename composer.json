@@ -1,8 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
+	"name": "webarq/presence",
+	"description": "A Laravel application skeleton based on https://github.com/laravel/laravel/tree/v4.0.9.",
 	"keywords": ["framework", "laravel"],
-	"license": "MIT",
 	"repositories": [
 		{
 			"type": "vcs",
