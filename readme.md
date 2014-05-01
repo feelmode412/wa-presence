@@ -6,7 +6,7 @@ A Laravel application container based on [https://github.com/laravel/laravel/tre
 
 * Includes Webarq\Site and Webarq\Admin packages by default.
 * Default timezone is Asia/Jakarta.
-* Non-hardcoded environment detection.
+* File-based environment detection.
 
 ## Installation
 
@@ -35,7 +35,7 @@ Done. Now you can access your application at, for example, `http://localhost/my-
 
 Now you can access the admin panel at, for example: `http://localhost/my-project/admin-cp/`. Default user: `admin`, default password: `webarq`.
 
-### Non-Hardcoded Environment Detection
+### File-Based Environment Detection
 
 *Please note that you don't need to do this for production environment.*
 
