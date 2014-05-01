@@ -4,4 +4,3 @@ composer.phar
 composer.lock
 .DS_Store
 Thumbs.db
-/*.vendor_location.txt
