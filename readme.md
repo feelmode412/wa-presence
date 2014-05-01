@@ -37,11 +37,11 @@ Now you can access the admin panel at, for example: `http://localhost/my-project
 
 ### Non-Hardcoded Environment Detection
 
-1. Make a text file named `[your-computer-name].env.txt` in the same directory with this readme file.
-2. Add a line with the environment name. For example: `local`.
-3. Save the file and you're ready to go.
-
 *Please note that you don't need to do this for production environment.*
+
+1. Under `/app/config/` directory, create a new PHP file named `[your-computer-name].env.php`.
+2. Add a line telling the environment name. For example: `<?php return 'local';` for **local** environment.
+3. Save the file and you're ready to go.
 
 ## License
 

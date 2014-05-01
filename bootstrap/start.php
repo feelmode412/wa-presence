@@ -28,7 +28,8 @@ $app->redirectIfTrailingSlash();
 
 $env = $app->detectEnvironment(function()
 {
-	return @file_get_contents(__DIR__.'/../'.gethostname().'.env.txt') ?: 'production';
+	$envFile = __DIR__.'/../app/config/'.gethostname().'.env.php';
+	return (file_exists($envFile)) ? require $envFile : 'production';
 });
 
 /*
