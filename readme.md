@@ -7,6 +7,7 @@ A Laravel application container based on [https://github.com/laravel/laravel/tre
 * Includes Webarq\Site and Webarq\Admin packages by default.
 * Default timezone is Asia/Jakarta.
 * File-based environment detection.
+* Controller routes registration in `/app/routes.php`.
 
 ## Installation
 
