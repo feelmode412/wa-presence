@@ -2,6 +2,12 @@
 
 A Laravel application skeleton based on [https://github.com/laravel/laravel/tree/v4.0.9](https://github.com/laravel/laravel/tree/v4.0.9).
 
+## Features
+
+1. Including Webarq\Site and Webarq\Admin by default.
+
+2. Default timezone is Asia/Jakarta.
+
 ## Installation
 
 1. Make sure that your SSH public key has been registered on the private repository server (128.199.208.157).
