@@ -6,6 +6,7 @@ A Laravel application container based on [https://github.com/laravel/laravel/tre
 
 * Includes Webarq\Site and Webarq\Admin by default.
 * Default timezone is Asia/Jakarta.
+* Non-hardcoded environment detection.
 
 ## Installation
 
@@ -34,6 +35,12 @@ Done. Now you can access your application at, for example: `http://localhost/my-
 
 Now you can access the admin panel at, for example: `http://localhost/my-project/admin-cp/`. Default user: `admin`, default password: `webarq`.
 
-### License
+### Non-Hardcoded Environment Detection
+
+1. Make a text file named `[your-computer-name].env.txt` in the same directory with this readme file.
+2. Add a line with the environment name. For example: `local`.
+3. Save the file and you're ready to go.
+
+## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

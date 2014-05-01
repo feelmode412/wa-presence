@@ -26,11 +26,10 @@ $app->redirectIfTrailingSlash();
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('your-machine-name'),
-
-));
+$env = $app->detectEnvironment(function()
+{
+	return @file_get_contents(__DIR__.'/../'.gethostname().'.env.txt') ?: 'production';
+});
 
 /*
 |--------------------------------------------------------------------------
