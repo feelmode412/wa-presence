@@ -4,9 +4,9 @@ A Laravel application skeleton based on [https://github.com/laravel/laravel/tree
 
 ## Features
 
-1. Including Webarq\Site and Webarq\Admin by default.
+* Includes Webarq\Site and Webarq\Admin by default.
 
-2. Default timezone is Asia/Jakarta.
+* Default timezone is Asia/Jakarta.
 
 ## Installation
 
