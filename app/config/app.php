@@ -115,8 +115,9 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		// Additional
-		'Webarq\Site\SiteServiceProvider',
+		'Intervention\Image\ImageServiceProvider',
 		'Webarq\Admin\AdminServiceProvider',
+		'Webarq\Site\SiteServiceProvider',
 
 	),
 
@@ -184,8 +185,9 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 
 		// Additional
+		'Admin'           => 'Webarq\Admin\AdminFacade',
+		'Image'    => 'Intervention\Image\Facades\Image',
 		'Site'            => 'Webarq\Site\SiteFacade',
-		'Admin'            => 'Webarq\Admin\AdminFacade',
 
 	),
 
