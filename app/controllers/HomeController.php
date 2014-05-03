@@ -25,4 +25,10 @@ class HomeController extends Webarq\Site\BaseController {
 		$this->layout->content = View::make('home');
 	}
 
+	// An example of AJAX method returning a JSON response
+	public function getAjax()
+	{
+		return $this->ajaxResponse = array('foo' => 'bar', 'hello' => 'world');
+	}
+
 }

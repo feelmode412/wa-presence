@@ -12,4 +12,4 @@
 */
 Site::registerControllerRoutes();
 
-Route::controller('/', 'HomeController');
+Route::get('/', 'HomeController@getIndex');
