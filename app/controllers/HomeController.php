@@ -22,6 +22,7 @@ class HomeController extends Webarq\Site\BaseController {
 
 	public function getIndex()
 	{
+		$this->layout->pageTitle = 'Home';
 		$this->layout->content = View::make('home');
 	}
 

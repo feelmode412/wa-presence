@@ -2,7 +2,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>WEBARQ Presence</title>
+	<title>
+		@if ($pageTitle)
+			{{ $pageTitle }} |
+		@endif
+		WEBARQ Presence
+	</title>
 </head>
 <body>
 	<h1>WEBARQ Presence</h1>
