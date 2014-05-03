@@ -8,6 +8,7 @@ A Laravel application container based on [https://github.com/laravel/laravel/tre
 * Default timezone is Asia/Jakarta.
 * File-based environment detection.
 * Controller routes registration in `/app/routes.php`.
+* Includes a basic master layout contains Javascript helpers from Site package. 
 
 ## Installation
 

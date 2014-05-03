@@ -1,6 +1,6 @@
 <?php
 
-class HomeController extends BaseController {
+class HomeController extends Webarq\Site\BaseController {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -18,6 +18,11 @@ class HomeController extends BaseController {
 	public function showWelcome()
 	{
 		return View::make('hello');
+	}
+
+	public function getIndex()
+	{
+		$this->layout->content = View::make('home');
 	}
 
 }
