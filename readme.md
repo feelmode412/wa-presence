@@ -9,7 +9,7 @@ A Laravel application container based on [https://github.com/laravel/laravel/tre
 * File-based environment detection.
 * Controller routes registration in `/app/routes.php`.
 * Includes a basic master layout contains Javascript helpers from Site package.
-* Contains Site's $ajaxResponse usage example in HomeController. 
+* Contains Site's `$ajaxResponse` usage example in HomeController. 
 
 ## Installation
 
@@ -54,7 +54,7 @@ Now you can access the admin panel at, for example: `http://localhost/my-project
 
 ### File-Based Environment Detection
 
-*Please note that you don't need to do this for production environment.*
+*Please note that you don't need to do this for **production** environment.*
 
 1. Under `/app/config/` directory, create a new PHP file named `[your-computer-name].env.php`.
 2. Add a line telling the environment name. For example:
@@ -66,3 +66,5 @@ Now you can access the admin panel at, for example: `http://localhost/my-project
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+Copyright 2014 [Web Architect Technology](http://www.webarq.com/)
