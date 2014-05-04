@@ -16,11 +16,21 @@ A Laravel application container based on [https://github.com/laravel/laravel/tre
 ### Basic
 
 1. Make sure that your SSH public key has been registered on the private repository server (128.199.208.157).
-2. Make a new directory for your project: `mkdir my-project`.
-3. Enter the new directory: `cd my-project`.
-4. Clone Presence to current directory: `git clone git@128.199.208.157:/opt/git/webarq/presence.git .`.
-5. Remove the `.git` directory: `rm -Rf .git`.
-6. Install Composer dependencies: `composer install`.
+2. Make a new directory for your project:
+
+		mkdir my-project
+3. Enter the new directory:
+
+		cd my-project
+4. Clone Presence to current directory:
+
+		git clone git@128.199.208.157:/opt/git/webarq/presence.git .
+5. Remove the `.git` directory:
+
+		rm -Rf .git
+6. Install Composer dependencies:
+
+		composer install
 
 Done. Now you can access your application at, for example, `http://localhost/my-project/`.
 
@@ -33,8 +43,12 @@ Done. Now you can access your application at, for example, `http://localhost/my-
 
 ### Setup The Admin Panel (Webarq\Admin)
 
-1. Publish Admin's assets: `php artisan asset:publish webarq/admin`.
-2. Publish Admin's configurations: `php artisan config:publish webarq/admin`.
+1. Publish Admin's assets:
+
+		php artisan asset:publish webarq/admin
+2. Publish Admin's configurations:
+
+		php artisan config:publish webarq/admin
 
 Now you can access the admin panel at, for example: `http://localhost/my-project/admin-cp/`. Default user: `admin`, default password: `webarq`.
 
@@ -43,7 +57,10 @@ Now you can access the admin panel at, for example: `http://localhost/my-project
 *Please note that you don't need to do this for production environment.*
 
 1. Under `/app/config/` directory, create a new PHP file named `[your-computer-name].env.php`.
-2. Add a line telling the environment name. For example: `<?php return 'local';` for **local** environment.
+2. Add a line telling the environment name. For example:
+
+		<?php return 'local';
+	for **local** environment.
 3. Save the file and you're ready to go.
 
 ## License
