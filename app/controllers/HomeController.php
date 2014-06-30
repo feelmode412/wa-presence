@@ -1,6 +1,6 @@
 <?php
 
-class HomeController extends Webarq\Site\BaseController {
+class HomeController extends Webarq\Site\Controller {
 
 	/*
 	|--------------------------------------------------------------------------
