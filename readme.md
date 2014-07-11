@@ -15,7 +15,7 @@ A Laravel application container based on [https://github.com/laravel/laravel/tre
 
 ### Basic
 
-1. Make sure that your SSH public key has been registered on the private repository server (128.199.208.157).
+1. Make sure that your SSH's public key has been registered in the repository server.
 2. Make a new directory for your project:
 
 		mkdir my-project
@@ -24,7 +24,7 @@ A Laravel application container based on [https://github.com/laravel/laravel/tre
 		cd my-project
 4. Clone Presence to current directory:
 
-		git clone git@128.199.208.157:/opt/git/webarq/presence.git .
+		git clone git@[server-hostname]:[path]/webarq/presence.git .
 5. Remove the `.git` directory:
 
 		rm -Rf .git
