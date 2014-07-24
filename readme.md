@@ -1,6 +1,6 @@
 # WEBARQ Presence
 
-A Laravel application container based on [https://github.com/laravel/laravel/tree/v4.0.9](https://github.com/laravel/laravel/tree/v4.0.9).
+A web application boilerplate based on [Laravel 4.0.9](https://github.com/laravel/laravel/tree/v4.0.9).
 
 ## Features
 
