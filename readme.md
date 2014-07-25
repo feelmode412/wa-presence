@@ -32,7 +32,7 @@ A web application boilerplate based on [Laravel 4.0.9](https://github.com/larave
 
 		composer install
 
-Done. Now you can access your application at, for example, `http://localhost/my-project/`.
+It is not done yet, but now you can access your application's frontend at, for example, `http://localhost/my-project/`.
 
 ### Setup Database
 
