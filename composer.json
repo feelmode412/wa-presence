@@ -1,7 +1,7 @@
 {
 	"name": "webarq/presence",
-	"description": "A Laravel application skeleton based on https://github.com/laravel/laravel/tree/v4.0.9.",
-	"keywords": ["framework", "laravel"],
+	"description": "A web application boilerplate based on Laravel 4.0.9.",
+	"keywords": ["webarq", "presence"],
 	"repositories": [
 		{
 			"type": "vcs",
