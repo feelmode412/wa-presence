@@ -116,6 +116,7 @@ return array(
 
 		// Additional
 		'Intervention\Image\ImageServiceProvider',
+		'Mews\Captcha\CaptchaServiceProvider',
 		'Webarq\Admin\AdminServiceProvider',
 		'Webarq\Site\SiteServiceProvider',
 
@@ -186,7 +187,8 @@ return array(
 
 		// Additional
 		'Admin'           => 'Webarq\Admin\AdminFacade',
-		'Image'    => 'Intervention\Image\Facades\Image',
+		'Captcha'         => 'Mews\Captcha\Facades\Captcha',
+		'Image'           => 'Intervention\Image\Facades\Image',
 		'Site'            => 'Webarq\Site\SiteFacade',
 
 	),
