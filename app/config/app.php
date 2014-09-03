@@ -115,6 +115,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		// Additional
+		'Barryvdh\Debugbar\ServiceProvider',
 		'Intervention\Image\ImageServiceProvider',
 		'Mews\Captcha\CaptchaServiceProvider',
 		'Webarq\Admin\AdminServiceProvider',
