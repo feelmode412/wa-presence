@@ -39,18 +39,7 @@ It is not done yet, but now you can access your application's frontend at, for e
 1. Create a new MySQL database.
 2. Setup Laravel's database connection in `/app/config/database.php`.
 3. Import Webarq\Site's schema. The file is located in `/vendor/webarq/site/schema.sql`.
-4. Import Webarq\Admin's schema. The file is located in `/vendor/webarq/admin/schema.sql`. 
-
-### Setup The Admin Panel (Webarq\Admin)
-
-1. Publish Admin's assets:
-
-		php artisan asset:publish webarq/admin
-2. Publish Admin's configurations:
-
-		php artisan config:publish webarq/admin
-
-Now you can access the admin panel at, for example: `http://localhost/my-project/admin-cp/`. Default user: `admin`, default password: `webarq`.
+4. Import Webarq\Admin's schema. The file is located in `/vendor/webarq/admin/schema.sql`.
 
 ### File-Based Environment Detection
 
@@ -62,6 +51,19 @@ Now you can access the admin panel at, for example: `http://localhost/my-project
 		<?php return 'local';
 	for **local** environment.
 3. Save the file and you're ready to go.
+
+### Update Admin Panel's Assets and Configs
+
+You may need to regularly update the admin panel's assets and configurations when there are updates from WEBARQ\Admin package. 
+
+1. Publish Admin's assets:
+
+		php artisan asset:publish webarq/admin
+2. Publish Admin's configurations:
+
+		php artisan config:publish webarq/admin
+
+Now you can access the admin panel at, for example: `http://localhost/my-project/admin-cp/`. Default user: `admin`, default password: `webarq`.
 
 ## License
 
