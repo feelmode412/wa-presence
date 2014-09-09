@@ -52,7 +52,6 @@ Done. Now you can access the admin panel at, for example: `http://localhost/my-p
 2. Add a line telling the environment name. For example:
 
 		<?php return 'local';
-	for **local** environment.
 3. Save the file and you're ready to go.
 
 ### Update Admin Panel's Assets and Configs
