@@ -69,4 +69,4 @@ Now you can access the admin panel at, for example: `http://localhost/my-project
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-Copyright 2014 [Web Architect Technology](http://www.webarq.com/)
+WEBARQ\Presence &copy; 2014 [Web Architect Technology, PT](http://www.webarq.com/)
