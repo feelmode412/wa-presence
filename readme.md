@@ -7,7 +7,7 @@ A web application boilerplate based on [Laravel 4.0.9](https://github.com/larave
 * Includes Webarq\Site and Webarq\Admin packages by default.
 * Default timezone is Asia/Jakarta.
 * File-based environment detection.
-* Controller routes registration in `/app/routes.php`.
+* Site::registerControllerRoutes() in `/app/routes.php`.
 * Includes a basic master layout contains Javascript helpers from Site package.
 
 ## Installation
