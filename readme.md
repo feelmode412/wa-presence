@@ -9,7 +9,6 @@ A web application boilerplate based on [Laravel 4.0.9](https://github.com/larave
 * File-based environment detection.
 * Controller routes registration in `/app/routes.php`.
 * Includes a basic master layout contains Javascript helpers from Site package.
-* Contains Site's `$ajaxResponse` usage example in HomeController. 
 
 ## Installation
 
