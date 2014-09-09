@@ -42,6 +42,8 @@ It is not done yet, but now you can access your application's frontend at, for e
 
 Done. Now you can access the admin panel at, for example: `http://localhost/my-project/admin-cp/`. Default user: `admin`, default password: `webarq`.
 
+## Development
+
 ### File-Based Environment Detection
 
 *Please note that you don't need to do this for **production** environment.*
@@ -64,8 +66,6 @@ You may need to regularly update the admin panel's assets and configurations whe
 
 		php artisan config:publish webarq/admin
 
-## License
+## Copyright
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
-
-WEBARQ\Presence &copy; 2014 [Web Architect Technology, PT](http://www.webarq.com/)
+WEBARQ Presence &copy; 2014 [WEBARQ](http://www.webarq.com/). All rights reserved.
