@@ -40,6 +40,8 @@ It is not done yet, but now you can access your application's frontend at, for e
 3. Import Webarq\Site's schema. The file is located in `/vendor/webarq/site/schema.sql`.
 4. Import Webarq\Admin's schema. The file is located in `/vendor/webarq/admin/schema.sql`.
 
+Done. Now you can access the admin panel at, for example: `http://localhost/my-project/admin-cp/`. Default user: `admin`, default password: `webarq`.
+
 ### File-Based Environment Detection
 
 *Please note that you don't need to do this for **production** environment.*
@@ -61,8 +63,6 @@ You may need to regularly update the admin panel's assets and configurations whe
 2. Publish Admin's configurations:
 
 		php artisan config:publish webarq/admin
-
-Now you can access the admin panel at, for example: `http://localhost/my-project/admin-cp/`. Default user: `admin`, default password: `webarq`.
 
 ## License
 
