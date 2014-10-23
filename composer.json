@@ -5,11 +5,11 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "git@git2.webarq.com:/webarq/site.git"
+			"url": "git@git2.webarq.com:webarq/site.git"
 		},
 		{
 			"type": "vcs",
-			"url": "git@git2.webarq.com:/webarq/adminx.git"
+			"url": "git@git2.webarq.com:webarq/adminx.git"
 		}
 	],
 	"require": {
