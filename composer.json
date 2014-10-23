@@ -15,7 +15,7 @@
 	"require": {
 		"laravel/framework": "4.0.*",
 		"mews/captcha": "1.0.1",
-		"webarq/admin": "1.0.*"
+		"webarq/admin": "1.0.x-dev"
 	},
 	"require-dev": {
 		"barryvdh/laravel-debugbar": "1.6.7"
