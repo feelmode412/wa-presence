@@ -14,20 +14,9 @@ A web application boilerplate based on [Laravel 4.2.11](https://github.com/larav
 
 ### Basic
 
-1. Make sure that your SSH's public key has been registered in the repository server.
-2. Make a new directory for your project:
-
-		mkdir my-project
-3. Enter the new directory:
-
-		cd my-project
-4. Clone Presence to current directory:
-
-		git clone git@[server-hostname]:[path]/webarq/presence.git .
-5. Remove the `.git` directory:
-
-		rm -Rf .git
-6. Install Composer dependencies:
+1. Download a compressed version of Presence.
+2. Extract it to a directory you wish.
+3. Install Composer dependencies:
 
 		composer install
 
