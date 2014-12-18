@@ -1,6 +1,6 @@
 # WEBARQ Presence
 
-A web application boilerplate based on [Laravel 4.2.11](https://github.com/laravel/laravel/tree/v4.2.11).
+A web application boilerplate based on [Laravel 4.2.11 (skeleton)](https://github.com/laravel/laravel/tree/v4.2.11).
 
 ## Features
 
