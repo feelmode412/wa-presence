@@ -5,11 +5,11 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "git@git2.webarq.com:webarq/site.git"
+			"url": "ssh://git@git.webarq.com:1903/webarq/site.git"
 		},
 		{
 			"type": "vcs",
-			"url": "git@git2.webarq.com:webarq/adminx.git"
+			"url": "ssh://git@git.webarq.com:1903/webarq/adminx.git"
 		}
 	],
 	"license": "MIT",
