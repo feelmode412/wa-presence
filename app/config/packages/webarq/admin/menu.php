@@ -1,5 +1,26 @@
 <?php
 return array(
+	'cms' => [
+		'title' => 'CMS',
+		'img' => 'icon-nav-08.png',
+		'route' => 'cms/mediamanager?type=images',
+		'subs' => [
+			'cms.media_manager' => [
+				'title' => 'Media Manager',
+				'route' => 'cms/mediamanager?type=images',
+				'subs' => [
+					'cms.media_manager.file' => [
+						'title' => 'Files',
+						'route' => 'cms/mediamanager?type=files',
+					],
+					'cms.media_manager.image' => [
+						'title' => 'Images',
+						'route' => 'cms/mediamanager?type=images',
+					],
+				],
+			],
+		],
+	],
 	'system' => array(
 		'title' => 'System & Utilities',
 		'img' => 'icon-nav-08.png',
