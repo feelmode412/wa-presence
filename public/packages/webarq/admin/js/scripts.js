@@ -116,4 +116,29 @@ $(document).ready(function() {
 
 	$('#checkboxtree').checkboxTree();
 
+	// Because standard iframe does not work on Chrome
+	$('input#media-manager').trigger('click');
+	$('input#media-manager').remove();
 });
+
+// Taken and modified from http://kcfinder.sunhater.com/demos/iframe
+function openKCFinder(field) {
+	var div = document.getElementById('kcfinder_div');
+	if (div.style.display == "block") {
+		div.style.display = 'none';
+		div.innerHTML = '';
+		return;
+	}
+	window.KCFinder = {
+		callBack: function(url) {
+			window.KCFinder = null;
+			field.value = url;
+			div.style.display = 'none';
+			div.innerHTML = '';
+		}
+	};
+
+	div.innerHTML = '<iframe name="kcfinder_iframe" src="' + KCFinderIframeSrc + '" ' +
+	'frameborder="0" width="100%" height="100%" marginwidth="0" marginheight="0" scrolling="no" />';
+	div.style.display = 'block';
+}
