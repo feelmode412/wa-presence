@@ -1843,7 +1843,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@git.webarq.com:1903/webarq/adminx.git",
-                "reference": "5ab826af02cd4ac52c72fb6db196e0dbbfba3551"
+                "reference": "493aacd86aa9acd80f28ebc1486a311e91786e7d"
             },
             "require": {
                 "illuminate/support": "4.2.*",
@@ -1868,7 +1868,7 @@
                     "email": "qosdil@gmail.com"
                 }
             ],
-            "time": "2015-03-24 12:50:10"
+            "time": "2015-03-25 11:44:49"
         },
         {
             "name": "webarq/site",

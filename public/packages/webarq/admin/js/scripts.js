@@ -119,6 +119,15 @@ $(document).ready(function() {
 	// Because standard iframe does not work on Chrome
 	$('input#media-manager').trigger('click');
 	$('input#media-manager').remove();
+	
+	if ($('ul#dashboard-twitter-timeline').length) {
+		$.ajax({
+			url: admin_url('dashboard/twitter-timeline-ajax'),
+			type: 'get',
+		}).done(function(result) {
+			$('ul#dashboard-twitter-timeline').append(result).show('slow');
+		});
+	}
 });
 
 // Taken and modified from http://kcfinder.sunhater.com/demos/iframe
