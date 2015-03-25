@@ -126,6 +126,7 @@ return array(
 		'Barryvdh\Debugbar\ServiceProvider',
 		'Intervention\Image\ImageServiceProvider',
 		'Mews\Captcha\CaptchaServiceProvider',
+		'Thujohn\Twitter\TwitterServiceProvider',
 		'Webarq\Admin\AdminServiceProvider',
 		'Webarq\Site\SiteServiceProvider',
 
@@ -201,6 +202,7 @@ return array(
 		'Captcha'           => 'Mews\Captcha\Facades\Captcha',
 		'Image'             => 'Intervention\Image\Facades\Image',
 		'Site'              => 'Webarq\Site\SiteFacade',
+		'Twitter'           => 'Thujohn\Twitter\TwitterFacade',
 
 	),
 
