@@ -15,5 +15,6 @@
 	{{ $content }}
 	
 	{{ View::make('site::js_helpers') }}
+	{{ Site::generateJs() }}
 </body>
 </html>
