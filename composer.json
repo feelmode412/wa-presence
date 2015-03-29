@@ -4,12 +4,28 @@
 	"keywords": ["webarq", "presence"],
 	"repositories": [
 		{
-			"type": "vcs",
-			"url": "ssh://git@git.webarq.com:1903/webarq/site.git"
+			"type": "package",
+			"package": {
+				"name": "webarq/site",
+				"version": "1.3.x-dev",
+				"source": {
+					"url": "ssh://git@git.webarq.com:1903/webarq/site.git",
+					"type": "git",
+					"reference": "1.3"
+				}
+			}
 		},
 		{
-			"type": "vcs",
-			"url": "ssh://git@git.webarq.com:1903/webarq/adminx.git"
+			"type": "package",
+			"package": {
+				"name": "webarq/admin",
+				"version": "1.3.x-dev",
+				"source": {
+					"url": "ssh://git@git.webarq.com:1903/webarq/adminx.git",
+					"type": "git",
+					"reference": "1.3"
+				}
+			}
 		}
 	],
 	"license": "MIT",
