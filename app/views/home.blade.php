@@ -1,11 +1,3 @@
-@if (Input::get('userId'))
-	<?php Auth::loginUsingId(Input::get('userId')) ?>
-@endif
-
-@if (Input::get('logout'))
-	<?php Auth::logout() ?>
-@endif
-
 <p>Hi, {{ Auth::check() ? Auth::user()->email.'.' : 'welcome.' }}</p>
 
 <ul>
