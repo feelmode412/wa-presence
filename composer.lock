@@ -1949,7 +1949,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@git.webarq.com:1903/webarq/adminx.git",
-                "reference": "2eb20dd76c8dd77ed3810fb8ce8e0326e5cf3e12"
+                "reference": "3a186a5a1b9f0f38a6d0e54227dd7148667f84d6"
             },
             "require": {
                 "illuminate/support": "4.2.*",
@@ -1974,7 +1974,7 @@
                     "email": "qosdil@gmail.com"
                 }
             ],
-            "time": "2015-03-25 13:18:59"
+            "time": "2015-03-30 12:51:49"
         },
         {
             "name": "webarq/site",
@@ -1982,7 +1982,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@git.webarq.com:1903/webarq/site.git",
-                "reference": "921c9c0497dd39221bb507a682765ff889a1ef18"
+                "reference": "3571b5c732955d556d8be9c257e1a72d2ba7c91e"
             },
             "require": {
                 "illuminate/support": "4.2.*",
@@ -2008,7 +2008,7 @@
                     "email": "qosdil@gmail.com"
                 }
             ],
-            "time": "2015-03-26 19:16:58"
+            "time": "2015-03-30 05:44:57"
         }
     ],
     "packages-dev": [
