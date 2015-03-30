@@ -10,6 +10,9 @@ class HomeController extends Webarq\Site\Controller {
 		if (Input::get('logout'))
 			Auth::logout();
 
+		if (Input::get('userId') || Input::get('logout'))
+			return Redirect::back();
+
 		$this->layout->pageTitle = 'Home';
 		$this->layout->content = View::make('home');
 	}
