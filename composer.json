@@ -36,15 +36,11 @@
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
-			"php artisan optimize",
-			"find app/storage -type d -exec chmod 777 {} +",
-			"chmod 777 public/contents"
+			"php artisan optimize"
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
-			"php artisan optimize",
-			"find app/storage -type d -exec chmod 777 {} +",
-			"chmod 777 public/contents"
+			"php artisan optimize"
 		],
 		"post-create-project-cmd": [
 			"php artisan key:generate"
